@@ -1,0 +1,501 @@
+[{
+    "Id": 1,
+    "Url": "http://dummyimage.com/208x161.bmp/ff4444/ffffff",
+    "Description": "Abrasion, unspecified ankle, sequela",
+    "IsMain": false
+  }, {
+    "Id": 2,
+    "Url": "http://dummyimage.com/243x128.png/cc0000/ffffff",
+    "Description": "Contus/lac cereb, w LOC of unsp duration, init",
+    "IsMain": false
+  }, {
+    "Id": 3,
+    "Url": "http://dummyimage.com/201x214.bmp/5fa2dd/ffffff",
+    "Description": "Nondisp fx of coronoid pro of unsp ulna, 7thD",
+    "IsMain": false
+  }, {
+    "Id": 4,
+    "Url": "http://dummyimage.com/183x131.jpg/5fa2dd/ffffff",
+    "Description": "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs",
+    "IsMain": true
+  }, {
+    "Id": 5,
+    "Url": "http://dummyimage.com/122x141.png/cc0000/ffffff",
+    "Description": "Pnctr w foreign body of r idx fngr w damage to nail, subs",
+    "IsMain": false
+  }, {
+    "Id": 6,
+    "Url": "http://dummyimage.com/199x148.png/dddddd/000000",
+    "Description": "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela",
+    "IsMain": true
+  }, {
+    "Id": 7,
+    "Url": "http://dummyimage.com/107x246.jpg/5fa2dd/ffffff",
+    "Description": "Poisoning by barbiturates, intentional self-harm, init",
+    "IsMain": false
+  }, {
+    "Id": 8,
+    "Url": "http://dummyimage.com/165x158.jpg/ff4444/ffffff",
+    "Description": "Disp fx of proximal third of navic bone of l wrist, sequela",
+    "IsMain": false
+  }, {
+    "Id": 9,
+    "Url": "http://dummyimage.com/240x231.bmp/dddddd/000000",
+    "Description": "Complete traumatic trnsphal amputation of r rng fngr, subs",
+    "IsMain": true
+  }, {
+    "Id": 10,
+    "Url": "http://dummyimage.com/223x198.bmp/ff4444/ffffff",
+    "Description": "Other diseases of biliary tract",
+    "IsMain": true
+  }, {
+    "Id": 11,
+    "Url": "http://dummyimage.com/188x201.jpg/5fa2dd/ffffff",
+    "Description": "Oth fracture of unsp talus, subs for fx w malunion",
+    "IsMain": false
+  }, {
+    "Id": 12,
+    "Url": "http://dummyimage.com/163x242.png/dddddd/000000",
+    "Description": "Disp fx of second metatarsal bone, right foot, sequela",
+    "IsMain": false
+  }, {
+    "Id": 13,
+    "Url": "http://dummyimage.com/119x127.bmp/cc0000/ffffff",
+    "Description": "Toxic effect of copper and its compounds, undetermined",
+    "IsMain": false
+  }, {
+    "Id": 14,
+    "Url": "http://dummyimage.com/188x149.png/5fa2dd/ffffff",
+    "Description": "Unsp malignant neoplasm of skin of and unsp parts of face",
+    "IsMain": false
+  }, {
+    "Id": 15,
+    "Url": "http://dummyimage.com/188x238.png/cc0000/ffffff",
+    "Description": "Anogenital herpesviral infection, unspecified",
+    "IsMain": false
+  }, {
+    "Id": 16,
+    "Url": "http://dummyimage.com/240x188.png/ff4444/ffffff",
+    "Description": "Inhalant depend w inhalnt-induce psych disorder w delusions",
+    "IsMain": false
+  }, {
+    "Id": 17,
+    "Url": "http://dummyimage.com/135x130.jpg/5fa2dd/ffffff",
+    "Description": "Gammaherpesviral mononucleosis with meningitis",
+    "IsMain": false
+  }, {
+    "Id": 18,
+    "Url": "http://dummyimage.com/169x227.bmp/cc0000/ffffff",
+    "Description": "Other injury of fallopian tube, unilateral, sequela",
+    "IsMain": true
+  }, {
+    "Id": 19,
+    "Url": "http://dummyimage.com/142x108.jpg/dddddd/000000",
+    "Description": "Bilious vomiting",
+    "IsMain": true
+  }, {
+    "Id": 20,
+    "Url": "http://dummyimage.com/250x131.png/cc0000/ffffff",
+    "Description": "Foreign body in genitourinary tract, part unsp, init encntr",
+    "IsMain": true
+  }, {
+    "Id": 21,
+    "Url": "http://dummyimage.com/104x200.png/ff4444/ffffff",
+    "Description": "External constriction of part of breast, left breast, init",
+    "IsMain": false
+  }, {
+    "Id": 22,
+    "Url": "http://dummyimage.com/223x150.jpg/5fa2dd/ffffff",
+    "Description": "Corrosion of first degree of back of left hand",
+    "IsMain": true
+  }, {
+    "Id": 23,
+    "Url": "http://dummyimage.com/232x203.jpg/ff4444/ffffff",
+    "Description": "Subluxation of right scapula, initial encounter",
+    "IsMain": false
+  }, {
+    "Id": 24,
+    "Url": "http://dummyimage.com/135x224.png/5fa2dd/ffffff",
+    "Description": "Dislocation of unspecified internal joint prosthesis",
+    "IsMain": false
+  }, {
+    "Id": 25,
+    "Url": "http://dummyimage.com/168x114.png/cc0000/ffffff",
+    "Description": "Displ avuls fx tuberosity of r calcaneus, 7thD",
+    "IsMain": false
+  }, {
+    "Id": 26,
+    "Url": "http://dummyimage.com/211x106.bmp/ff4444/ffffff",
+    "Description": "Nondisp fx of olecran pro w intartic extn l ulna, 7thF",
+    "IsMain": true
+  }, {
+    "Id": 27,
+    "Url": "http://dummyimage.com/224x130.png/dddddd/000000",
+    "Description": "Corrosion of second degree of buttock",
+    "IsMain": true
+  }, {
+    "Id": 28,
+    "Url": "http://dummyimage.com/132x106.bmp/ff4444/ffffff",
+    "Description": "Complete placenta previa NOS or without hemor, third tri",
+    "IsMain": true
+  }, {
+    "Id": 29,
+    "Url": "http://dummyimage.com/115x201.jpg/ff4444/ffffff",
+    "Description": "Intraop hemor/hemtom of ear/mastd complicating a procedure",
+    "IsMain": true
+  }, {
+    "Id": 30,
+    "Url": "http://dummyimage.com/136x105.png/dddddd/000000",
+    "Description": "Other complications of bone marrow transplant",
+    "IsMain": false
+  }, {
+    "Id": 31,
+    "Url": "http://dummyimage.com/209x102.png/cc0000/ffffff",
+    "Description": "Congenital lordosis, sacral and sacrococcygeal region",
+    "IsMain": true
+  }, {
+    "Id": 32,
+    "Url": "http://dummyimage.com/132x100.bmp/dddddd/000000",
+    "Description": "Nondisp seg fx shaft of r tibia, 7thD",
+    "IsMain": true
+  }, {
+    "Id": 33,
+    "Url": "http://dummyimage.com/205x143.bmp/dddddd/000000",
+    "Description": "Unspecified superficial injury of hand",
+    "IsMain": true
+  }, {
+    "Id": 34,
+    "Url": "http://dummyimage.com/250x143.jpg/ff4444/ffffff",
+    "Description": "Open bite of left eyelid and periocular area, subs encntr",
+    "IsMain": true
+  }, {
+    "Id": 35,
+    "Url": "http://dummyimage.com/166x112.jpg/ff4444/ffffff",
+    "Description": "Sltr-haris Type IV physeal fracture of left metatarsal, 7thD",
+    "IsMain": true
+  }, {
+    "Id": 36,
+    "Url": "http://dummyimage.com/168x147.bmp/dddddd/000000",
+    "Description": "Fntl lb and exec fcn def following unsp cerebvasc disease",
+    "IsMain": false
+  }, {
+    "Id": 37,
+    "Url": "http://dummyimage.com/209x167.png/ff4444/ffffff",
+    "Description": "Laceration of superficial palmar arch of right hand, sequela",
+    "IsMain": true
+  }, {
+    "Id": 38,
+    "Url": "http://dummyimage.com/207x232.bmp/dddddd/000000",
+    "Description": "Cicatricial lagophthalmos",
+    "IsMain": false
+  }, {
+    "Id": 39,
+    "Url": "http://dummyimage.com/228x101.png/cc0000/ffffff",
+    "Description": "Corrosion of first degree of right knee, initial encounter",
+    "IsMain": false
+  }, {
+    "Id": 40,
+    "Url": "http://dummyimage.com/215x176.jpg/ff4444/ffffff",
+    "Description": "Displ spiral fx shaft of ulna, l arm, 7thH",
+    "IsMain": true
+  }, {
+    "Id": 41,
+    "Url": "http://dummyimage.com/226x174.jpg/ff4444/ffffff",
+    "Description": "Car driver injured in collision w car in traf, init",
+    "IsMain": true
+  }, {
+    "Id": 42,
+    "Url": "http://dummyimage.com/116x107.png/dddddd/000000",
+    "Description": "Mild hyperemesis gravidarum",
+    "IsMain": true
+  }, {
+    "Id": 43,
+    "Url": "http://dummyimage.com/241x101.png/cc0000/ffffff",
+    "Description": "Burn of third degree of right lower leg, initial encounter",
+    "IsMain": true
+  }, {
+    "Id": 44,
+    "Url": "http://dummyimage.com/162x192.png/5fa2dd/ffffff",
+    "Description": "Abrasion, left hip",
+    "IsMain": false
+  }, {
+    "Id": 45,
+    "Url": "http://dummyimage.com/101x140.png/ff4444/ffffff",
+    "Description": "Toxic effect of unsp pesticide, accidental, subs",
+    "IsMain": true
+  }, {
+    "Id": 46,
+    "Url": "http://dummyimage.com/221x229.png/dddddd/000000",
+    "Description": "Pedl cyc pasngr inj in nonclsn trnsp acc in traf, sequela",
+    "IsMain": false
+  }, {
+    "Id": 47,
+    "Url": "http://dummyimage.com/187x222.jpg/5fa2dd/ffffff",
+    "Description": "Unspecified sprain of right wrist",
+    "IsMain": false
+  }, {
+    "Id": 48,
+    "Url": "http://dummyimage.com/113x228.png/5fa2dd/ffffff",
+    "Description": "Nutritional deficiency, unspecified",
+    "IsMain": false
+  }, {
+    "Id": 49,
+    "Url": "http://dummyimage.com/149x140.bmp/ff4444/ffffff",
+    "Description": "Elevated prostate specific antigen [PSA]",
+    "IsMain": true
+  }, {
+    "Id": 50,
+    "Url": "http://dummyimage.com/246x141.jpg/ff4444/ffffff",
+    "Description": "Dislocation of proximal interphaln joint of l mid finger",
+    "IsMain": true
+  }, {
+    "Id": 51,
+    "Url": "http://dummyimage.com/211x147.jpg/cc0000/ffffff",
+    "Description": "Maternal care for fetal abnlt and damage, unsp, fetus 3",
+    "IsMain": false
+  }, {
+    "Id": 52,
+    "Url": "http://dummyimage.com/145x159.jpg/cc0000/ffffff",
+    "Description": "Greenstick fracture of shaft of humerus, left arm",
+    "IsMain": false
+  }, {
+    "Id": 53,
+    "Url": "http://dummyimage.com/154x189.jpg/cc0000/ffffff",
+    "Description": "Inj extensor musc/fasc/tend l idx fngr at wrs/hnd lv, subs",
+    "IsMain": true
+  }, {
+    "Id": 54,
+    "Url": "http://dummyimage.com/127x171.bmp/cc0000/ffffff",
+    "Description": "Hydroxyapatite deposition disease",
+    "IsMain": false
+  }, {
+    "Id": 55,
+    "Url": "http://dummyimage.com/106x128.png/5fa2dd/ffffff",
+    "Description": "Other optic atrophy, bilateral",
+    "IsMain": false
+  }, {
+    "Id": 56,
+    "Url": "http://dummyimage.com/159x155.png/dddddd/000000",
+    "Description": "Displaced apophyseal fracture of unsp femur, init",
+    "IsMain": false
+  }, {
+    "Id": 57,
+    "Url": "http://dummyimage.com/177x124.bmp/5fa2dd/ffffff",
+    "Description": "Occup of hv veh injured in clsn w ped/anml nontraf, sequela",
+    "IsMain": false
+  }, {
+    "Id": 58,
+    "Url": "http://dummyimage.com/198x132.jpg/5fa2dd/ffffff",
+    "Description": "Nondisp simp suprcndl fx w/o intrcndl fx unsp humer, 7thP",
+    "IsMain": true
+  }, {
+    "Id": 59,
+    "Url": "http://dummyimage.com/223x245.jpg/dddddd/000000",
+    "Description": "Burn of second degree of right thumb (nail)",
+    "IsMain": true
+  }, {
+    "Id": 60,
+    "Url": "http://dummyimage.com/152x223.jpg/dddddd/000000",
+    "Description": "Insect bite (nonvenomous), left great toe, subs encntr",
+    "IsMain": true
+  }, {
+    "Id": 61,
+    "Url": "http://dummyimage.com/180x209.bmp/cc0000/ffffff",
+    "Description": "Infections of urethra in pregnancy, second trimester",
+    "IsMain": false
+  }, {
+    "Id": 62,
+    "Url": "http://dummyimage.com/131x200.png/5fa2dd/ffffff",
+    "Description": "Athscl type of bypass of the left leg w ulceration of calf",
+    "IsMain": true
+  }, {
+    "Id": 63,
+    "Url": "http://dummyimage.com/177x133.png/dddddd/000000",
+    "Description": "Open bite of right index finger w/o damage to nail, sequela",
+    "IsMain": true
+  }, {
+    "Id": 64,
+    "Url": "http://dummyimage.com/229x227.png/cc0000/ffffff",
+    "Description": "Traumatic subcutaneous emphysema",
+    "IsMain": false
+  }, {
+    "Id": 65,
+    "Url": "http://dummyimage.com/116x217.bmp/cc0000/ffffff",
+    "Description": "Superficial fb of left eyelid and periocular area, init",
+    "IsMain": true
+  }, {
+    "Id": 66,
+    "Url": "http://dummyimage.com/112x223.jpg/dddddd/000000",
+    "Description": "Activity, free weights",
+    "IsMain": true
+  }, {
+    "Id": 67,
+    "Url": "http://dummyimage.com/132x243.png/cc0000/ffffff",
+    "Description": "Other superficial bite of unspecified finger, subs encntr",
+    "IsMain": true
+  }, {
+    "Id": 68,
+    "Url": "http://dummyimage.com/150x144.jpg/ff4444/ffffff",
+    "Description": "Disp fx of medial wall of right acetabulum, sequela",
+    "IsMain": true
+  }, {
+    "Id": 69,
+    "Url": "http://dummyimage.com/124x222.jpg/dddddd/000000",
+    "Description": "Perf due to fb acc left in body fol remov cath/pack, init",
+    "IsMain": false
+  }, {
+    "Id": 70,
+    "Url": "http://dummyimage.com/234x120.png/cc0000/ffffff",
+    "Description": "Stenosis of coronary artery stent, sequela",
+    "IsMain": false
+  }, {
+    "Id": 71,
+    "Url": "http://dummyimage.com/205x151.bmp/cc0000/ffffff",
+    "Description": "Oth injury of oth blood vessels at forearm level, right arm",
+    "IsMain": true
+  }, {
+    "Id": 72,
+    "Url": "http://dummyimage.com/231x161.jpg/ff4444/ffffff",
+    "Description": "Poisoning by intravenous anesthetics, undetermined, subs",
+    "IsMain": false
+  }, {
+    "Id": 73,
+    "Url": "http://dummyimage.com/183x177.jpg/5fa2dd/ffffff",
+    "Description": "Nondisp fx of anterior column of right acetabulum, sequela",
+    "IsMain": false
+  }, {
+    "Id": 74,
+    "Url": "http://dummyimage.com/181x225.jpg/ff4444/ffffff",
+    "Description": "Age-rel osteopor w current path fracture, unsp femur, init",
+    "IsMain": true
+  }, {
+    "Id": 75,
+    "Url": "http://dummyimage.com/159x223.jpg/5fa2dd/ffffff",
+    "Description": "Toxic effect of chewing tobacco, accidental (unintentional)",
+    "IsMain": true
+  }, {
+    "Id": 76,
+    "Url": "http://dummyimage.com/110x195.jpg/5fa2dd/ffffff",
+    "Description": "Other superficial bite of left ring finger, subs encntr",
+    "IsMain": false
+  }, {
+    "Id": 77,
+    "Url": "http://dummyimage.com/168x234.png/5fa2dd/ffffff",
+    "Description": "Nondisp seg fx shaft of rad, unsp arm, 7thG",
+    "IsMain": true
+  }, {
+    "Id": 78,
+    "Url": "http://dummyimage.com/218x143.jpg/cc0000/ffffff",
+    "Description": "Exposure to melting of plastic jewelry, initial encounter",
+    "IsMain": true
+  }, {
+    "Id": 79,
+    "Url": "http://dummyimage.com/180x194.png/dddddd/000000",
+    "Description": "Osteonecrosis due to previous trauma of unspecified ulna",
+    "IsMain": false
+  }, {
+    "Id": 80,
+    "Url": "http://dummyimage.com/192x112.jpg/5fa2dd/ffffff",
+    "Description": "Other bursitis of elbow",
+    "IsMain": false
+  }, {
+    "Id": 81,
+    "Url": "http://dummyimage.com/122x237.bmp/dddddd/000000",
+    "Description": "Osteonecrosis due to previous trauma of unspecified ulna",
+    "IsMain": true
+  }, {
+    "Id": 82,
+    "Url": "http://dummyimage.com/199x217.png/ff4444/ffffff",
+    "Description": "Disp fx of olecran pro w/o intartic extn l ulna, 7thG",
+    "IsMain": true
+  }, {
+    "Id": 83,
+    "Url": "http://dummyimage.com/144x109.png/ff4444/ffffff",
+    "Description": "Corrosion of first degree of left upper arm, init encntr",
+    "IsMain": true
+  }, {
+    "Id": 84,
+    "Url": "http://dummyimage.com/108x204.png/cc0000/ffffff",
+    "Description": "Varus deformity, not elsewhere classified, right hip",
+    "IsMain": true
+  }, {
+    "Id": 85,
+    "Url": "http://dummyimage.com/115x172.png/ff4444/ffffff",
+    "Description": "Poisoning by antiviral drugs, intentional self-harm, init",
+    "IsMain": true
+  }, {
+    "Id": 86,
+    "Url": "http://dummyimage.com/246x204.bmp/5fa2dd/ffffff",
+    "Description": "Subluxation of T10/T11 thoracic vertebra",
+    "IsMain": true
+  }, {
+    "Id": 87,
+    "Url": "http://dummyimage.com/250x107.bmp/cc0000/ffffff",
+    "Description": "Nondisp fx of shaft of unsp metacarpal bone, init for opn fx",
+    "IsMain": false
+  }, {
+    "Id": 88,
+    "Url": "http://dummyimage.com/110x181.bmp/5fa2dd/ffffff",
+    "Description": "Path fx in neopltc disease, l shldr, subs for fx w malunion",
+    "IsMain": true
+  }, {
+    "Id": 89,
+    "Url": "http://dummyimage.com/217x103.png/5fa2dd/ffffff",
+    "Description": "Dyspnea, unspecified",
+    "IsMain": true
+  }, {
+    "Id": 90,
+    "Url": "http://dummyimage.com/101x133.jpg/dddddd/000000",
+    "Description": "Other fracture of great toe",
+    "IsMain": true
+  }, {
+    "Id": 91,
+    "Url": "http://dummyimage.com/115x248.bmp/dddddd/000000",
+    "Description": "Kaschin-Beck disease, hand",
+    "IsMain": false
+  }, {
+    "Id": 92,
+    "Url": "http://dummyimage.com/232x168.png/ff4444/ffffff",
+    "Description": "Excessive and redundant skin and subcutaneous tissue",
+    "IsMain": false
+  }, {
+    "Id": 93,
+    "Url": "http://dummyimage.com/157x217.png/cc0000/ffffff",
+    "Description": "War operations involving gasoline bomb, civilian",
+    "IsMain": true
+  }, {
+    "Id": 94,
+    "Url": "http://dummyimage.com/145x112.bmp/ff4444/ffffff",
+    "Description": "Poisoning by succinimides and oxazolidinediones, undet",
+    "IsMain": false
+  }, {
+    "Id": 95,
+    "Url": "http://dummyimage.com/162x129.png/5fa2dd/ffffff",
+    "Description": "Pnctr w fb of r rng fngr w/o damage to nail, sequela",
+    "IsMain": true
+  }, {
+    "Id": 96,
+    "Url": "http://dummyimage.com/122x168.bmp/ff4444/ffffff",
+    "Description": "Fall in (into) filled bathtub causing oth injury, init",
+    "IsMain": false
+  }, {
+    "Id": 97,
+    "Url": "http://dummyimage.com/102x178.jpg/cc0000/ffffff",
+    "Description": "Drug-induced chronic gout, right shoulder",
+    "IsMain": true
+  }, {
+    "Id": 98,
+    "Url": "http://dummyimage.com/182x163.jpg/ff4444/ffffff",
+    "Description": "Fatigue fracture of vertebra, lumbar region, init for fx",
+    "IsMain": false
+  }, {
+    "Id": 99,
+    "Url": "http://dummyimage.com/126x107.bmp/dddddd/000000",
+    "Description": "Puncture wound without foreign body of right breast",
+    "IsMain": false
+  }, {
+    "Id": 100,
+    "Url": "http://dummyimage.com/216x138.png/cc0000/ffffff",
+    "Description": "Diabetes with diabetic macular edema, resolved fol trtmt, bi",
+    "IsMain": false
+  }]

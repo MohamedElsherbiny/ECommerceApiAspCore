@@ -1,0 +1,601 @@
+[{
+  "Name": "Otomegusa Dashi Konbu",
+  "Description": "Nondisp subtrochnt fx unsp femr, subs for clos fx w nonunion",
+  "UnitPrice": 39,
+  "QuantityPerUnit": 42,
+  "Top20": false
+}, {
+  "Name": "Rice Pilaf, Dry,package",
+  "Description": "Slip/trip w/o fall d/t step from one level to another, subs",
+  "UnitPrice": 22,
+  "QuantityPerUnit": 1,
+  "Top20": false
+}, {
+  "Name": "Mangoes",
+  "Description": "Unspecified injury of ascending colon, initial encounter",
+  "UnitPrice": 80,
+  "QuantityPerUnit": 10,
+  "Top20": true
+}, {
+  "Name": "The Pop Shoppe - Grape",
+  "Description": "Subluxation of other carpometacarpal joint of right hand",
+  "UnitPrice": 14,
+  "QuantityPerUnit": 28,
+  "Top20": false
+}, {
+  "Name": "Stock - Fish",
+  "Description": "Other superficial bite of right elbow, initial encounter",
+  "UnitPrice": 76,
+  "QuantityPerUnit": 78,
+  "Top20": true
+}, {
+  "Name": "Juice - Apple, 1.36l",
+  "Description": "Burn of unspecified degree of back of right hand",
+  "UnitPrice": 60,
+  "QuantityPerUnit": 99,
+  "Top20": true
+}, {
+  "Name": "Island Oasis - Wildberry",
+  "Description": "Poisoning by emetics, assault, subsequent encounter",
+  "UnitPrice": 95,
+  "QuantityPerUnit": 58,
+  "Top20": false
+}, {
+  "Name": "Lemon Pepper",
+  "Description": "External constriction of left ear, sequela",
+  "UnitPrice": 19,
+  "QuantityPerUnit": 82,
+  "Top20": true
+}, {
+  "Name": "Bread - Bistro White",
+  "Description": "Obstructed labor due to breech presentation, unsp",
+  "UnitPrice": 71,
+  "QuantityPerUnit": 77,
+  "Top20": false
+}, {
+  "Name": "Soy Protein",
+  "Description": "Open wound of penis",
+  "UnitPrice": 84,
+  "QuantityPerUnit": 96,
+  "Top20": false
+}, {
+  "Name": "Beef - Ground Medium",
+  "Description": "Diastrophic dysplasia",
+  "UnitPrice": 72,
+  "QuantityPerUnit": 50,
+  "Top20": true
+}, {
+  "Name": "Wine - Guy Sage Touraine",
+  "Description": "Other secondary osteonecrosis, left hand",
+  "UnitPrice": 26,
+  "QuantityPerUnit": 24,
+  "Top20": false
+}, {
+  "Name": "Juice - Tomato, 10 Oz",
+  "Description": "Fall from oth rolling-type pedestrian conveyance, init",
+  "UnitPrice": 64,
+  "QuantityPerUnit": 29,
+  "Top20": true
+}, {
+  "Name": "Wine - Pinot Noir Mondavi Coastal",
+  "Description": "Puncture wound with foreign body of right upper arm, sequela",
+  "UnitPrice": 20,
+  "QuantityPerUnit": 22,
+  "Top20": false
+}, {
+  "Name": "Zucchini - Yellow",
+  "Description": "Nondisp fx of medial phalanx of left lesser toe(s), init",
+  "UnitPrice": 18,
+  "QuantityPerUnit": 35,
+  "Top20": false
+}, {
+  "Name": "Liqueur - Melon",
+  "Description": "Posterior dislocation of r sternoclav jt, sequela",
+  "UnitPrice": 39,
+  "QuantityPerUnit": 100,
+  "Top20": false
+}, {
+  "Name": "Longos - Chicken Curried",
+  "Description": "Toxic effect of noxious substnc eaten as food, slf-hrm, init",
+  "UnitPrice": 6,
+  "QuantityPerUnit": 33,
+  "Top20": true
+}, {
+  "Name": "Fondant - Icing",
+  "Description": "Serous conjunctivitis, except viral, unspecified eye",
+  "UnitPrice": 83,
+  "QuantityPerUnit": 73,
+  "Top20": false
+}, {
+  "Name": "Carbonated Water - Strawberry",
+  "Description": "Displaced segmental fracture of shaft of right tibia, init",
+  "UnitPrice": 30,
+  "QuantityPerUnit": 39,
+  "Top20": false
+}, {
+  "Name": "Cheese - Marble",
+  "Description": "Toxic optic neuropathy",
+  "UnitPrice": 73,
+  "QuantityPerUnit": 71,
+  "Top20": false
+}, {
+  "Name": "Chicken Breast Wing On",
+  "Description": "Disp fx of dist phalanx of l lit fngr, 7thK",
+  "UnitPrice": 40,
+  "QuantityPerUnit": 37,
+  "Top20": false
+}, {
+  "Name": "Pepper - Black, Crushed",
+  "Description": "Zoster conjunctivitis",
+  "UnitPrice": 12,
+  "QuantityPerUnit": 12,
+  "Top20": false
+}, {
+  "Name": "Eel - Smoked",
+  "Description": "Burn of unspecified degree of right palm, subs encntr",
+  "UnitPrice": 51,
+  "QuantityPerUnit": 45,
+  "Top20": true
+}, {
+  "Name": "Wine - White, Pinot Grigio",
+  "Description": "Other rupture of muscle (nontraumatic), unspecified hand",
+  "UnitPrice": 64,
+  "QuantityPerUnit": 34,
+  "Top20": false
+}, {
+  "Name": "Ham - Cooked Bayonne Tinned",
+  "Description": "Toxic effect of carbon tetrachloride, undetermined, init",
+  "UnitPrice": 55,
+  "QuantityPerUnit": 34,
+  "Top20": true
+}, {
+  "Name": "Cup - 8oz Coffee Perforated",
+  "Description": "Minor laceration of femoral artery, right leg, sequela",
+  "UnitPrice": 68,
+  "QuantityPerUnit": 67,
+  "Top20": false
+}, {
+  "Name": "Cabbage - Nappa",
+  "Description": "Drown d/t thrown ovrbrd by motion of unsp wtrcrft, init",
+  "UnitPrice": 91,
+  "QuantityPerUnit": 57,
+  "Top20": true
+}, {
+  "Name": "True - Vue Containers",
+  "Description": "Craniorachischisis",
+  "UnitPrice": 38,
+  "QuantityPerUnit": 5,
+  "Top20": true
+}, {
+  "Name": "Kellogs All Bran Bars",
+  "Description": "Unsp disp fx of fourth cervcal vert, subs for fx w nonunion",
+  "UnitPrice": 25,
+  "QuantityPerUnit": 29,
+  "Top20": false
+}, {
+  "Name": "Carrots - Mini, Stem On",
+  "Description": "Primary blast injury of other part of colon, subs encntr",
+  "UnitPrice": 45,
+  "QuantityPerUnit": 48,
+  "Top20": true
+}, {
+  "Name": "Juice - Cranberry 284ml",
+  "Description": "Polyosteoarthritis",
+  "UnitPrice": 32,
+  "QuantityPerUnit": 46,
+  "Top20": true
+}, {
+  "Name": "Rambutan",
+  "Description": "Encounter for breast reconstruction following mastectomy",
+  "UnitPrice": 24,
+  "QuantityPerUnit": 38,
+  "Top20": true
+}, {
+  "Name": "Yogurt - Raspberry, 175 Gr",
+  "Description": "Fall due to collision betw inflatbl crft and oth wtrcrft/obj",
+  "UnitPrice": 49,
+  "QuantityPerUnit": 62,
+  "Top20": false
+}, {
+  "Name": "Snapple - Iced Tea Peach",
+  "Description": "Abrasion of anus, sequela",
+  "UnitPrice": 32,
+  "QuantityPerUnit": 58,
+  "Top20": false
+}, {
+  "Name": "Muffin Hinge Container 6",
+  "Description": "Rheumatoid myopathy with rheumatoid arthritis of unsp site",
+  "UnitPrice": 89,
+  "QuantityPerUnit": 31,
+  "Top20": false
+}, {
+  "Name": "Island Oasis - Ice Cream Mix",
+  "Description": "Mature B-cell leukemia Burkitt-type",
+  "UnitPrice": 38,
+  "QuantityPerUnit": 34,
+  "Top20": false
+}, {
+  "Name": "Oil - Sunflower",
+  "Description": "Nondisp fx of greater tuberosity of right humerus, init",
+  "UnitPrice": 92,
+  "QuantityPerUnit": 68,
+  "Top20": true
+}, {
+  "Name": "Beef - Bresaola",
+  "Description": "Nondisp transverse fx unsp acetabulum, init for opn fx",
+  "UnitPrice": 6,
+  "QuantityPerUnit": 69,
+  "Top20": true
+}, {
+  "Name": "Cheese - Cheddar With Claret",
+  "Description": "Jump/div in natrl body of wtr strk surfc cause oth inj, subs",
+  "UnitPrice": 73,
+  "QuantityPerUnit": 31,
+  "Top20": true
+}, {
+  "Name": "Calypso - Pineapple Passion",
+  "Description": "Sedatv/hyp/anxiolytc use, unsp w anxiety disorder",
+  "UnitPrice": 92,
+  "QuantityPerUnit": 98,
+  "Top20": true
+}, {
+  "Name": "Peach - Fresh",
+  "Description": "Nondisp spiral fx shaft of rad, r arm, 7thE",
+  "UnitPrice": 1,
+  "QuantityPerUnit": 6,
+  "Top20": false
+}, {
+  "Name": "Sprouts - Alfalfa",
+  "Description": "Extreme immaturity of NB, gestatnl age 27 completed weeks",
+  "UnitPrice": 13,
+  "QuantityPerUnit": 58,
+  "Top20": false
+}, {
+  "Name": "Arctic Char - Fresh, Whole",
+  "Description": "Adverse effect of smallpox vaccines",
+  "UnitPrice": 41,
+  "QuantityPerUnit": 93,
+  "Top20": true
+}, {
+  "Name": "Bagel - Whole White Sesame",
+  "Description": "Malignant neoplasm of penis, unspecified",
+  "UnitPrice": 21,
+  "QuantityPerUnit": 49,
+  "Top20": false
+}, {
+  "Name": "Graham Cracker Mix",
+  "Description": "Eyelid retraction left lower eyelid",
+  "UnitPrice": 90,
+  "QuantityPerUnit": 57,
+  "Top20": true
+}, {
+  "Name": "Soup - Campbells Bean Medley",
+  "Description": "Poisoning by unsp narcotics, intentional self-harm, sequela",
+  "UnitPrice": 5,
+  "QuantityPerUnit": 2,
+  "Top20": true
+}, {
+  "Name": "Capon - Breast, Wing On",
+  "Description": "Terrorism, secondary effects, civilian injured",
+  "UnitPrice": 59,
+  "QuantityPerUnit": 78,
+  "Top20": false
+}, {
+  "Name": "Nantucket - Orange Mango Cktl",
+  "Description": "Exposure to excessive natural cold, subsequent encounter",
+  "UnitPrice": 50,
+  "QuantityPerUnit": 60,
+  "Top20": false
+}, {
+  "Name": "Cheese - Swiss",
+  "Description": "Unsp superficial injury of unsp part of head, subs encntr",
+  "UnitPrice": 46,
+  "QuantityPerUnit": 21,
+  "Top20": false
+}, {
+  "Name": "Beef - Cow Feet Split",
+  "Description": "Toxic effect of venom of venomous lizard, self-harm, sequela",
+  "UnitPrice": 11,
+  "QuantityPerUnit": 33,
+  "Top20": false
+}, {
+  "Name": "Beans - Fava, Canned",
+  "Description": "Pathological fracture, left femur, subs for fx w nonunion",
+  "UnitPrice": 98,
+  "QuantityPerUnit": 66,
+  "Top20": true
+}, {
+  "Name": "Chicken - Livers",
+  "Description": "Undrdose of pertussis vaccine, inc combin w pertuss, init",
+  "UnitPrice": 6,
+  "QuantityPerUnit": 33,
+  "Top20": true
+}, {
+  "Name": "French Pastries",
+  "Description": "Encntr for exam for delay growth in chldhd w abn findings",
+  "UnitPrice": 73,
+  "QuantityPerUnit": 47,
+  "Top20": false
+}, {
+  "Name": "Nut - Hazelnut, Ground, Natural",
+  "Description": "Car passenger injured in clsn w 2/3-whl mv in traf, subs",
+  "UnitPrice": 65,
+  "QuantityPerUnit": 55,
+  "Top20": false
+}, {
+  "Name": "Table Cloth 62x114 White",
+  "Description": "Basal cell carcinoma of overlapping sites of skin",
+  "UnitPrice": 84,
+  "QuantityPerUnit": 57,
+  "Top20": false
+}, {
+  "Name": "Cup - 3.5oz, Foam",
+  "Description": "Path fx in oth disease, unsp femur, subs for fx w routn heal",
+  "UnitPrice": 94,
+  "QuantityPerUnit": 18,
+  "Top20": false
+}, {
+  "Name": "Pork - Sausage Casing",
+  "Description": "Antidysrhythmic drugs",
+  "UnitPrice": 22,
+  "QuantityPerUnit": 91,
+  "Top20": true
+}, {
+  "Name": "Jam - Raspberry,jar",
+  "Description": "Inj extn musc/fasc/tend r little finger at forarm lv, init",
+  "UnitPrice": 63,
+  "QuantityPerUnit": 57,
+  "Top20": false
+}, {
+  "Name": "Pastrami",
+  "Description": "Minor laceration of right kidney",
+  "UnitPrice": 97,
+  "QuantityPerUnit": 43,
+  "Top20": true
+}, {
+  "Name": "Cheese - Cheddar, Old White",
+  "Description": "Disp fx of lateral malleolus of right fibula, sequela",
+  "UnitPrice": 79,
+  "QuantityPerUnit": 23,
+  "Top20": true
+}, {
+  "Name": "Bananas",
+  "Description": "Toxic effect of cadmium and its compounds, assault, init",
+  "UnitPrice": 40,
+  "QuantityPerUnit": 16,
+  "Top20": false
+}, {
+  "Name": "Spic And Span All Purpose",
+  "Description": "Other vascular disorders of intestine",
+  "UnitPrice": 57,
+  "QuantityPerUnit": 93,
+  "Top20": false
+}, {
+  "Name": "Soup - Knorr, French Onion",
+  "Description": "Corrosion of unsp degree of unspecified knee, subs encntr",
+  "UnitPrice": 99,
+  "QuantityPerUnit": 100,
+  "Top20": false
+}, {
+  "Name": "Snapple - Iced Tea Peach",
+  "Description": "Superficial foreign body of right front wall of thorax, init",
+  "UnitPrice": 59,
+  "QuantityPerUnit": 80,
+  "Top20": true
+}, {
+  "Name": "Oxtail - Cut",
+  "Description": "Pnctr w fb of left lesser toe(s) w damage to nail, subs",
+  "UnitPrice": 25,
+  "QuantityPerUnit": 19,
+  "Top20": true
+}, {
+  "Name": "Guinea Fowl",
+  "Description": "Orchard as the place of occurrence of the external cause",
+  "UnitPrice": 12,
+  "QuantityPerUnit": 83,
+  "Top20": true
+}, {
+  "Name": "Port - 74 Brights",
+  "Description": "Nondisp avulsion fx unsp ischium, subs for fx w nonunion",
+  "UnitPrice": 46,
+  "QuantityPerUnit": 6,
+  "Top20": false
+}, {
+  "Name": "Artichokes - Jerusalem",
+  "Description": "Poisn by unsp prim sys and hematolog agent, assault, sequela",
+  "UnitPrice": 34,
+  "QuantityPerUnit": 66,
+  "Top20": false
+}, {
+  "Name": "Cocoa Feuilletine",
+  "Description": "Contusion of bronchus, bilateral, sequela",
+  "UnitPrice": 58,
+  "QuantityPerUnit": 22,
+  "Top20": false
+}, {
+  "Name": "Dc Hikiage Hira Huba",
+  "Description": "Contusion of eyeball and orbital tissues, unsp eye, subs",
+  "UnitPrice": 17,
+  "QuantityPerUnit": 70,
+  "Top20": false
+}, {
+  "Name": "Doilies - 10, Paper",
+  "Description": "Disord of muscle in diseases classd elswhr, unsp upper arm",
+  "UnitPrice": 3,
+  "QuantityPerUnit": 85,
+  "Top20": true
+}, {
+  "Name": "Curry Paste - Green Masala",
+  "Description": "Cold injury syndrome",
+  "UnitPrice": 74,
+  "QuantityPerUnit": 32,
+  "Top20": false
+}, {
+  "Name": "Guava",
+  "Description": "Contus/lac cereb, w LOC >24 hr w ret consc lev",
+  "UnitPrice": 84,
+  "QuantityPerUnit": 95,
+  "Top20": true
+}, {
+  "Name": "Wine - White, Ej",
+  "Description": "Nondisp spiral fx shaft of l femr, 7thP",
+  "UnitPrice": 23,
+  "QuantityPerUnit": 5,
+  "Top20": true
+}, {
+  "Name": "Remy Red Berry Infusion",
+  "Description": "Nondisp pilon fx l tibia, 7thQ",
+  "UnitPrice": 17,
+  "QuantityPerUnit": 25,
+  "Top20": true
+}, {
+  "Name": "Smoked Tongue",
+  "Description": "Underdosing of nonopioid analges/antipyret, NEC, subs",
+  "UnitPrice": 48,
+  "QuantityPerUnit": 61,
+  "Top20": false
+}, {
+  "Name": "Beef - Ground, Extra Lean, Fresh",
+  "Description": "Unspecified open wound of right thumb without damage to nail",
+  "UnitPrice": 15,
+  "QuantityPerUnit": 33,
+  "Top20": false
+}, {
+  "Name": "Pork - Sausage, Medium",
+  "Description": "Osteitis condensans, unspecified thigh",
+  "UnitPrice": 31,
+  "QuantityPerUnit": 80,
+  "Top20": true
+}, {
+  "Name": "Pepper - Cubanelle",
+  "Description": "Nondisp apophyseal fx unsp femur, init for opn fx type I/2",
+  "UnitPrice": 24,
+  "QuantityPerUnit": 8,
+  "Top20": false
+}, {
+  "Name": "French Pastry - Mini Chocolate",
+  "Description": "Sprain of the super tibiofibul joint and ligmt, l knee, subs",
+  "UnitPrice": 68,
+  "QuantityPerUnit": 80,
+  "Top20": true
+}, {
+  "Name": "Gooseberry",
+  "Description": "Personal history of other benign neoplasm",
+  "UnitPrice": 13,
+  "QuantityPerUnit": 8,
+  "Top20": false
+}, {
+  "Name": "Tea - Jasmin Green",
+  "Description": "Major depressive disorder, single episode",
+  "UnitPrice": 84,
+  "QuantityPerUnit": 25,
+  "Top20": true
+}, {
+  "Name": "Orange - Canned, Mandarin",
+  "Description": "Sprain of MCP joint of left index finger, sequela",
+  "UnitPrice": 60,
+  "QuantityPerUnit": 25,
+  "Top20": false
+}, {
+  "Name": "Chestnuts - Whole,canned",
+  "Description": "Lacerat extn musc/fasc/tend unsp finger at forarm lv, subs",
+  "UnitPrice": 6,
+  "QuantityPerUnit": 99,
+  "Top20": true
+}, {
+  "Name": "Sugar - White Packet",
+  "Description": "Strain of intrinsic musc/fasc/tend r rng fngr at wrs/hnd lv",
+  "UnitPrice": 90,
+  "QuantityPerUnit": 45,
+  "Top20": false
+}, {
+  "Name": "Wine - Tio Pepe Sherry Fino",
+  "Description": "Displ seg fx shaft of l femur, subs for clos fx w routn heal",
+  "UnitPrice": 16,
+  "QuantityPerUnit": 10,
+  "Top20": false
+}, {
+  "Name": "Chicken - White Meat, No Tender",
+  "Description": "Displ oth extrartic fx unsp calcaneus, 7thD",
+  "UnitPrice": 49,
+  "QuantityPerUnit": 42,
+  "Top20": false
+}, {
+  "Name": "Glaze - Apricot",
+  "Description": "Inhalation of steam and other hot vapors, sequela",
+  "UnitPrice": 35,
+  "QuantityPerUnit": 65,
+  "Top20": false
+}, {
+  "Name": "Curry Paste - Green Masala",
+  "Description": "Nondisp fx of coronoid pro of l ulna, 7thC",
+  "UnitPrice": 65,
+  "QuantityPerUnit": 49,
+  "Top20": false
+}, {
+  "Name": "Soup - Campbells Mac N Cheese",
+  "Description": "Toxic liver disease with hepatic necrosis",
+  "UnitPrice": 52,
+  "QuantityPerUnit": 22,
+  "Top20": true
+}, {
+  "Name": "Plastic Wrap",
+  "Description": "Toxic eff of venom of African and Asian snake, asslt, init",
+  "UnitPrice": 53,
+  "QuantityPerUnit": 96,
+  "Top20": true
+}, {
+  "Name": "Flour - Semolina",
+  "Description": "Unsp fx low end l ulna, 7thE",
+  "UnitPrice": 43,
+  "QuantityPerUnit": 53,
+  "Top20": true
+}, {
+  "Name": "Fruit Mix - Light",
+  "Description": "Staphylococcal arthritis, left elbow",
+  "UnitPrice": 2,
+  "QuantityPerUnit": 36,
+  "Top20": true
+}, {
+  "Name": "Rum - Cream, Amarula",
+  "Description": "Other fracture of second thoracic vertebra",
+  "UnitPrice": 61,
+  "QuantityPerUnit": 31,
+  "Top20": false
+}, {
+  "Name": "Pepper - White, Ground",
+  "Description": "Oth fx upr end l rad, subs for opn fx type 3A/B/C w nonunion",
+  "UnitPrice": 24,
+  "QuantityPerUnit": 6,
+  "Top20": true
+}, {
+  "Name": "Pepper - Paprika, Hungarian",
+  "Description": "Prsn brd/alit a 3-whl mv injured in clsn w 2/3-whl mv, subs",
+  "UnitPrice": 32,
+  "QuantityPerUnit": 6,
+  "Top20": true
+}, {
+  "Name": "Wine - Shiraz Wolf Blass Premium",
+  "Description": "Displ Maisonneuve's fx l leg, subs for clos fx w routn heal",
+  "UnitPrice": 37,
+  "QuantityPerUnit": 76,
+  "Top20": true
+}, {
+  "Name": "Ostrich - Prime Cut",
+  "Description": "Foreign body in stomach",
+  "UnitPrice": 99,
+  "QuantityPerUnit": 83,
+  "Top20": false
+}, {
+  "Name": "Yogurt - Assorted Pack",
+  "Description": "Unsp inj intrns musc/fasc/tend l rng fngr at wrs/hnd lv,init",
+  "UnitPrice": 5,
+  "QuantityPerUnit": 26,
+  "Top20": false
+}, {
+  "Name": "Liners - Baking Cups",
+  "Description": "Alopecia areata, unspecified",
+  "UnitPrice": 97,
+  "QuantityPerUnit": 73,
+  "Top20": false
+}]
