@@ -28,5 +28,41 @@ namespace ApiDesign.Controllers
             var productsToReturn = _mapper.Map<List<ProductForListDto>>(productsFromRepo);
             return Ok(productsToReturn);
         }
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var productFromRepo = _repo.GetProduct(id);
+            var productToReturn = _mapper.Map<ProductForDetailDto>(productFromRepo);
+            return Ok(productToReturn);
+        }
+        [HttpPost("Add")]
+        public IActionResult Add([FromBody]ProductForAddingDto productForAddingDto)
+        {
+            if (!ModelState.IsValid)
+                return Unauthorized();
+
+            var product = _mapper.Map<Product>(productForAddingDto);
+            _repo.AddProduct(product);
+            
+            return Ok(201);
+        }
+        [HttpPost("Update")]
+        public IActionResult Update([FromBody]ProductForUpdateDto productForUpdatingDto)
+        {
+            if (!ModelState.IsValid)
+                return Unauthorized();
+
+            var product = _mapper.Map<Product>(productForUpdatingDto);
+            _repo.UpdateProduct(product);
+
+            return Ok(201);
+        }
+        [HttpPost("Delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            _repo.DeleteProduct(id);
+
+            return Ok(201);
+        }
     }
 }

@@ -38,6 +38,7 @@ namespace Design.Api
             });
             services.AddTransient<IProductRepository,ProductRepository>();
             services.AddAutoMapper();
+            services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options => {
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
@@ -54,7 +55,12 @@ namespace Design.Api
             {
                 app.UseHsts();
             }
-
+            app.UseCors(option => {
+                option.AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin()
+                    .AllowCredentials();
+            });
             //app.UseHttpsRedirection();
             app.UseMvc();
         }

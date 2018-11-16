@@ -15,12 +15,27 @@ namespace ApiDesign.Data
         }
         public void AddProduct(Product product)
         {
-            throw new System.NotImplementedException();
+            _context.Products.Add(product);
+            _context.SaveChanges();
+        }
+
+        public void DeleteProduct(int id)
+        {
+            var productToDelete = _context.Products.FirstOrDefault(x => x.Id == id);
+            if (productToDelete != null)
+            {
+                _context.Products.Remove(productToDelete);
+                _context.SaveChanges();
+            }
+
         }
 
         public Product GetProduct(int id)
         {
-            throw new System.NotImplementedException();
+            return  _context.Products
+                            .Include(x => x.Supplier)
+                            .Include(x => x.Category)
+                            .Include(x => x.Photos).FirstOrDefault(x => x.Id == id);
         }
 
         public List<Product> GetProducts()
@@ -29,6 +44,24 @@ namespace ApiDesign.Data
                             .Include(x => x.Supplier)
                             .Include(x => x.Category)
                             .Include(x => x.Photos).ToList();
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            var productFromRepo = _context.Products.FirstOrDefault(x => x.Id == product.Id);
+            if(productFromRepo != null)
+            {
+                productFromRepo.Name = product.Name;
+                productFromRepo.Description = product.Description;
+                productFromRepo.QuantityPerUnit = product.QuantityPerUnit;
+                productFromRepo.UnitPrice = product.UnitPrice;
+                productFromRepo.Top20 = product.Top20;
+                productFromRepo.SupplierId = product.SupplierId;
+                productFromRepo.CategoryId = product.CategoryId;
+
+                _context.Products.Update(productFromRepo);
+                _context.SaveChanges();
+            }
         }
     }
 }
