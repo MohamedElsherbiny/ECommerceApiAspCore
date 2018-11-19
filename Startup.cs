@@ -37,6 +37,7 @@ namespace Design.Api
                 option.UseSqlite(connectionString);
             });
             services.AddTransient<IProductRepository,ProductRepository>();
+            services.AddTransient<ICategoryRepository,CategoryRepository>();
             services.AddAutoMapper();
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options => {
