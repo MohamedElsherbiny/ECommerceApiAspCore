@@ -76,112 +76,112 @@ namespace ApiDesign.Models
             modelBuilder.Entity<Photo>().HasData(
                 new Photo { 
                     Id = 1,
-                    Url = "http://dummyimage.com/208x161.bmp/ff4444/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Abrasion, unspecified ankle, sequela",
                     IsMain = false,
                     ProductId = 1
                  },
                 new Photo { 
                     Id = 2,
-                    Url = "http://dummyimage.com/243x128.png/cc0000/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Contus/lac cereb, w LOC of unsp duration, init",
                     IsMain = false,
                     ProductId = 1
                  },
                 new Photo { 
                     Id = 3,
-                    Url = "http://dummyimage.com/201x214.bmp/5fa2dd/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Nondisp fx of coronoid pro of unsp ulna, 7thD",
                     IsMain = false,
                     ProductId = 2
                  },
                 new Photo { 
                     Id = 4,
-                    Url = "http://dummyimage.com/183x131.jpg/5fa2dd/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs",
                     IsMain = true,
                     ProductId = 2
                  },
                 new Photo { 
                     Id = 5,
-                    Url = "http://dummyimage.com/122x141.png/cc0000/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Pnctr w foreign body of r idx fngr w damage to nail, subs",
                     IsMain = false,
                     ProductId = 3
                  },
                 new Photo { 
                     Id = 6,
-                    Url = "http://dummyimage.com/199x148.png/dddddd/000000",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela",
                     IsMain = true,
                     ProductId = 3
                  },
                 new Photo { 
                     Id = 7,
-                    Url = "http://dummyimage.com/107x246.jpg/5fa2dd/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Poisoning by barbiturates, intentional self-harm, init",
                     IsMain = false,
                     ProductId = 4
                  },
                 new Photo { 
                     Id = 8,
-                    Url = "http://dummyimage.com/165x158.jpg/ff4444/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Disp fx of proximal third of navic bone of l wrist, sequela",
                     IsMain = false,
                     ProductId = 4
                  },
                 new Photo { 
                     Id = 9,
-                    Url = "http://dummyimage.com/240x231.bmp/dddddd/000000",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Complete traumatic trnsphal amputation of r rng fngr, subs",
                     IsMain = true,
                     ProductId = 5
                  },
                 new Photo { 
                     Id = 10,
-                    Url = "http://dummyimage.com/223x198.bmp/ff4444/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Other diseases of biliary tract",
                     IsMain = true,
                     ProductId = 5
                  },
                 new Photo { 
                     Id = 11,
-                    Url = "http://dummyimage.com/188x201.jpg/5fa2dd/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Oth fracture of unsp talus, subs for fx w malunion",
                     IsMain = false,
                     ProductId = 6
                  },
                 new Photo { 
                     Id = 12,
-                    Url = "http://dummyimage.com/163x242.png/dddddd/000000",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Disp fx of second metatarsal bone, right foot, sequela",
                     IsMain = false,
                     ProductId = 6
                  },
                 new Photo { 
                     Id = 13,
-                    Url = "http://dummyimage.com/119x127.bmp/cc0000/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Toxic effect of copper and its compounds, undetermined",
                     IsMain = false,
                     ProductId = 7
                  },
                 new Photo { 
                     Id = 14,
-                    Url = "http://dummyimage.com/188x149.png/5fa2dd/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Unsp malignant neoplasm of skin of and unsp parts of face",
                     IsMain = false,
                     ProductId = 7
                  },
                 new Photo { 
                     Id = 15,
-                    Url = "http://dummyimage.com/188x238.png/cc0000/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Anogenital herpesviral infection, unspecified",
                     IsMain = false,
                     ProductId = 8
                  },
                 new Photo { 
                     Id = 16,
-                    Url = "http://dummyimage.com/240x188.png/ff4444/ffffff",
+                    Url = "https://dummyimage.com/230x230/f2deb5/fff",
                     Description = "Inhalant depend w inhalnt-induce psych disorder w delusions",
                     IsMain = false,
                     ProductId = 8

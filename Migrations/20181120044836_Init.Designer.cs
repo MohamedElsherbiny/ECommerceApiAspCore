@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Design.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20181115120822_Init")]
+    [Migration("20181120044836_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -58,22 +58,22 @@ namespace Design.Api.Migrations
                     b.ToTable("Photos");
 
                     b.HasData(
-                        new { Id = 1, Description = "Abrasion, unspecified ankle, sequela", IsMain = false, ProductId = 1, Url = "http://dummyimage.com/208x161.bmp/ff4444/ffffff" },
-                        new { Id = 2, Description = "Contus/lac cereb, w LOC of unsp duration, init", IsMain = false, ProductId = 1, Url = "http://dummyimage.com/243x128.png/cc0000/ffffff" },
-                        new { Id = 3, Description = "Nondisp fx of coronoid pro of unsp ulna, 7thD", IsMain = false, ProductId = 2, Url = "http://dummyimage.com/201x214.bmp/5fa2dd/ffffff" },
-                        new { Id = 4, Description = "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs", IsMain = true, ProductId = 2, Url = "http://dummyimage.com/183x131.jpg/5fa2dd/ffffff" },
-                        new { Id = 5, Description = "Pnctr w foreign body of r idx fngr w damage to nail, subs", IsMain = false, ProductId = 3, Url = "http://dummyimage.com/122x141.png/cc0000/ffffff" },
-                        new { Id = 6, Description = "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela", IsMain = true, ProductId = 3, Url = "http://dummyimage.com/199x148.png/dddddd/000000" },
-                        new { Id = 7, Description = "Poisoning by barbiturates, intentional self-harm, init", IsMain = false, ProductId = 4, Url = "http://dummyimage.com/107x246.jpg/5fa2dd/ffffff" },
-                        new { Id = 8, Description = "Disp fx of proximal third of navic bone of l wrist, sequela", IsMain = false, ProductId = 4, Url = "http://dummyimage.com/165x158.jpg/ff4444/ffffff" },
-                        new { Id = 9, Description = "Complete traumatic trnsphal amputation of r rng fngr, subs", IsMain = true, ProductId = 5, Url = "http://dummyimage.com/240x231.bmp/dddddd/000000" },
-                        new { Id = 10, Description = "Other diseases of biliary tract", IsMain = true, ProductId = 5, Url = "http://dummyimage.com/223x198.bmp/ff4444/ffffff" },
-                        new { Id = 11, Description = "Oth fracture of unsp talus, subs for fx w malunion", IsMain = false, ProductId = 6, Url = "http://dummyimage.com/188x201.jpg/5fa2dd/ffffff" },
-                        new { Id = 12, Description = "Disp fx of second metatarsal bone, right foot, sequela", IsMain = false, ProductId = 6, Url = "http://dummyimage.com/163x242.png/dddddd/000000" },
-                        new { Id = 13, Description = "Toxic effect of copper and its compounds, undetermined", IsMain = false, ProductId = 7, Url = "http://dummyimage.com/119x127.bmp/cc0000/ffffff" },
-                        new { Id = 14, Description = "Unsp malignant neoplasm of skin of and unsp parts of face", IsMain = false, ProductId = 7, Url = "http://dummyimage.com/188x149.png/5fa2dd/ffffff" },
-                        new { Id = 15, Description = "Anogenital herpesviral infection, unspecified", IsMain = false, ProductId = 8, Url = "http://dummyimage.com/188x238.png/cc0000/ffffff" },
-                        new { Id = 16, Description = "Inhalant depend w inhalnt-induce psych disorder w delusions", IsMain = false, ProductId = 8, Url = "http://dummyimage.com/240x188.png/ff4444/ffffff" }
+                        new { Id = 1, Description = "Abrasion, unspecified ankle, sequela", IsMain = false, ProductId = 1, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 2, Description = "Contus/lac cereb, w LOC of unsp duration, init", IsMain = false, ProductId = 1, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 3, Description = "Nondisp fx of coronoid pro of unsp ulna, 7thD", IsMain = false, ProductId = 2, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 4, Description = "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs", IsMain = true, ProductId = 2, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 5, Description = "Pnctr w foreign body of r idx fngr w damage to nail, subs", IsMain = false, ProductId = 3, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 6, Description = "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela", IsMain = true, ProductId = 3, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 7, Description = "Poisoning by barbiturates, intentional self-harm, init", IsMain = false, ProductId = 4, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 8, Description = "Disp fx of proximal third of navic bone of l wrist, sequela", IsMain = false, ProductId = 4, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 9, Description = "Complete traumatic trnsphal amputation of r rng fngr, subs", IsMain = true, ProductId = 5, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 10, Description = "Other diseases of biliary tract", IsMain = true, ProductId = 5, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 11, Description = "Oth fracture of unsp talus, subs for fx w malunion", IsMain = false, ProductId = 6, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 12, Description = "Disp fx of second metatarsal bone, right foot, sequela", IsMain = false, ProductId = 6, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 13, Description = "Toxic effect of copper and its compounds, undetermined", IsMain = false, ProductId = 7, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 14, Description = "Unsp malignant neoplasm of skin of and unsp parts of face", IsMain = false, ProductId = 7, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 15, Description = "Anogenital herpesviral infection, unspecified", IsMain = false, ProductId = 8, Url = "https://dummyimage.com/230x230/f2deb5/fff" },
+                        new { Id = 16, Description = "Inhalant depend w inhalnt-induce psych disorder w delusions", IsMain = false, ProductId = 8, Url = "https://dummyimage.com/230x230/f2deb5/fff" }
                     );
                 });
 

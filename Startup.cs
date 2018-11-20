@@ -38,6 +38,7 @@ namespace Design.Api
             });
             services.AddTransient<IProductRepository,ProductRepository>();
             services.AddTransient<ICategoryRepository,CategoryRepository>();
+            services.AddTransient<ISupplierRepository,SupplierRepository>();
             services.AddAutoMapper();
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options => {

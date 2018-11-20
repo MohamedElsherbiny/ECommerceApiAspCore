@@ -167,82 +167,82 @@ namespace Design.Api.Migrations
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 1, "Abrasion, unspecified ankle, sequela", false, 1, "http://dummyimage.com/208x161.bmp/ff4444/ffffff" });
+                values: new object[] { 1, "Abrasion, unspecified ankle, sequela", false, 1, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 2, "Contus/lac cereb, w LOC of unsp duration, init", false, 1, "http://dummyimage.com/243x128.png/cc0000/ffffff" });
+                values: new object[] { 2, "Contus/lac cereb, w LOC of unsp duration, init", false, 1, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 5, "Pnctr w foreign body of r idx fngr w damage to nail, subs", false, 3, "http://dummyimage.com/122x141.png/cc0000/ffffff" });
+                values: new object[] { 5, "Pnctr w foreign body of r idx fngr w damage to nail, subs", false, 3, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 6, "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela", true, 3, "http://dummyimage.com/199x148.png/dddddd/000000" });
+                values: new object[] { 6, "Prsn brd/alit a car injured in clsn w 2/3-whl mv, sequela", true, 3, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 3, "Nondisp fx of coronoid pro of unsp ulna, 7thD", false, 2, "http://dummyimage.com/201x214.bmp/5fa2dd/ffffff" });
+                values: new object[] { 3, "Nondisp fx of coronoid pro of unsp ulna, 7thD", false, 2, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 4, "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs", true, 2, "http://dummyimage.com/183x131.jpg/5fa2dd/ffffff" });
+                values: new object[] { 4, "Lacerat flexor musc/fasc/tend at forarm lv, unsp arm, subs", true, 2, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 7, "Poisoning by barbiturates, intentional self-harm, init", false, 4, "http://dummyimage.com/107x246.jpg/5fa2dd/ffffff" });
+                values: new object[] { 7, "Poisoning by barbiturates, intentional self-harm, init", false, 4, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 8, "Disp fx of proximal third of navic bone of l wrist, sequela", false, 4, "http://dummyimage.com/165x158.jpg/ff4444/ffffff" });
+                values: new object[] { 8, "Disp fx of proximal third of navic bone of l wrist, sequela", false, 4, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 9, "Complete traumatic trnsphal amputation of r rng fngr, subs", true, 5, "http://dummyimage.com/240x231.bmp/dddddd/000000" });
+                values: new object[] { 9, "Complete traumatic trnsphal amputation of r rng fngr, subs", true, 5, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 10, "Other diseases of biliary tract", true, 5, "http://dummyimage.com/223x198.bmp/ff4444/ffffff" });
+                values: new object[] { 10, "Other diseases of biliary tract", true, 5, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 11, "Oth fracture of unsp talus, subs for fx w malunion", false, 6, "http://dummyimage.com/188x201.jpg/5fa2dd/ffffff" });
+                values: new object[] { 11, "Oth fracture of unsp talus, subs for fx w malunion", false, 6, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 12, "Disp fx of second metatarsal bone, right foot, sequela", false, 6, "http://dummyimage.com/163x242.png/dddddd/000000" });
+                values: new object[] { 12, "Disp fx of second metatarsal bone, right foot, sequela", false, 6, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 13, "Toxic effect of copper and its compounds, undetermined", false, 7, "http://dummyimage.com/119x127.bmp/cc0000/ffffff" });
+                values: new object[] { 13, "Toxic effect of copper and its compounds, undetermined", false, 7, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 14, "Unsp malignant neoplasm of skin of and unsp parts of face", false, 7, "http://dummyimage.com/188x149.png/5fa2dd/ffffff" });
+                values: new object[] { 14, "Unsp malignant neoplasm of skin of and unsp parts of face", false, 7, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 15, "Anogenital herpesviral infection, unspecified", false, 8, "http://dummyimage.com/188x238.png/cc0000/ffffff" });
+                values: new object[] { 15, "Anogenital herpesviral infection, unspecified", false, 8, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.InsertData(
                 table: "Photos",
                 columns: new[] { "Id", "Description", "IsMain", "ProductId", "Url" },
-                values: new object[] { 16, "Inhalant depend w inhalnt-induce psych disorder w delusions", false, 8, "http://dummyimage.com/240x188.png/ff4444/ffffff" });
+                values: new object[] { 16, "Inhalant depend w inhalnt-induce psych disorder w delusions", false, 8, "https://dummyimage.com/230x230/f2deb5/fff" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Photos_ProductId",

@@ -38,8 +38,8 @@ namespace ApiDesign.Data
         {
             var categoryFromRepo = _context.Categories.FirstOrDefault(x => x.Id == category.Id);
             categoryFromRepo.Name = category.Name;
+            categoryFromRepo.Description = category.Description;
             categoryFromRepo.ImgUrl = category.ImgUrl;
-            categoryFromRepo.Products = category.Products;
 
             _context.Categories.Update(categoryFromRepo);
             _context.SaveChanges();
