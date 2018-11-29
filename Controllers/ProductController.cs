@@ -7,6 +7,8 @@ using ApiDesign.Data;
 using AutoMapper;
 using System.Collections.Generic;
 using ApiDesign.Dtos;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ApiDesign.Controllers
 {

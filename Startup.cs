@@ -17,6 +17,11 @@ using ApiDesign.Data;
 using ApiDesign.Extentions;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Design.Api
 {
@@ -32,16 +37,65 @@ namespace Design.Api
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
-            Console.WriteLine(connectionString);
-            services.AddDbContext<AppDbContext>(option => {
+            var identityConnectionString = Configuration.GetConnectionString("IdentityConnection");
+            services.AddDbContext<AppDbContext>(option =>
+            {
                 option.UseSqlite(connectionString);
             });
-            services.AddTransient<IProductRepository,ProductRepository>();
-            services.AddTransient<ICategoryRepository,CategoryRepository>();
-            services.AddTransient<ISupplierRepository,SupplierRepository>();
-            services.AddAutoMapper();
+
+            services.AddDbContext<AppIdentityDbContext>(option =>
+            {
+                option.UseSqlite(identityConnectionString);
+            });
+
+            services.AddIdentity<User, IdentityRole>(op =>
+            {
+                op.Password.RequireDigit = false;
+                op.Password.RequireLowercase = false;
+                op.Password.RequireNonAlphanumeric = false;
+                op.Password.RequireUppercase = false;
+                op.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
+
+            //Authentication Configrations
+
+            string secretkey = Configuration.GetSection("secretkey").ToString();
+            var key = System.Text.Encoding.ASCII.GetBytes(secretkey);
+            
+            services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+                })
+                .AddJwtBearer(cfg =>
+                {
+                    cfg.RequireHttpsMetadata = false;
+                    cfg.SaveToken = true;
+                    cfg.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        ValidateIssuer = false,
+                        ValidateAudience = false,
+                        IssuerSigningKey = new SymmetricSecurityKey(key),
+                        ClockSkew = TimeSpan.Zero // remove delay of token when expire
+                    };
+                });
+
+
             services.AddCors();
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options => {
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<ISupplierRepository, SupplierRepository>();
+            services.AddTransient<IAuthRepository, AuthRepository>();
+
+            services.AddAutoMapper();
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddJsonOptions(options =>
+            {
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
             });
@@ -57,13 +111,15 @@ namespace Design.Api
             {
                 app.UseHsts();
             }
-            app.UseCors(option => {
+            app.UseCors(option =>
+            {
                 option.AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowAnyOrigin()
                     .AllowCredentials();
             });
             //app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseMvc();
         }
     }

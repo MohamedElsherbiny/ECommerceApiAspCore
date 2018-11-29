@@ -9,14 +9,20 @@ namespace ApiDesign.Extentions
     {
         public AutoMapperProfile()
         {
+            CreateMap<List<User>,UserForListDto>();
+
             CreateMap<List<Product>,ProductForListDto>();
             CreateMap<Product,ProductForDetailDto>();
             CreateMap<ProductForAddingDto,Product>();
             CreateMap<ProductForUpdateDto,Product>();
+
             CreateMap<Supplier,SupplierForListDto>();
+
             CreateMap<Category,CategoryForListDto>();
+
             CreateMap<Photo,PhotoForListDto>();
             CreateMap<PhotoForListDto,Photo>();
+            
         }
     }
 }
