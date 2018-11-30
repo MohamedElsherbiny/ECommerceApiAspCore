@@ -10,9 +10,20 @@ namespace ApiDesign.Models
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Photo> Photos { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         { 
+            modelBuilder.Entity<Order>().HasData(
+                new Order{
+                    Id = 1,
+                    Name = "order one",
+                    City = "cairo",
+                    Country = "egypt",
+                    State = "hello state",
+                    Zip = "order zip code ",
+                }
+            );
             modelBuilder.Entity<Category>().HasData(
                 new Category{
                         Id = 1,

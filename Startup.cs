@@ -91,6 +91,7 @@ namespace Design.Api
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddTransient<ISupplierRepository, SupplierRepository>();
             services.AddTransient<IAuthRepository, AuthRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
 
             services.AddAutoMapper();
 

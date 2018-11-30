@@ -3,14 +3,16 @@ using System;
 using ApiDesign.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Design.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181129113936_AddinOrders")]
+    partial class AddinOrders
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -108,10 +110,10 @@ namespace Design.Api.Migrations
 
             modelBuilder.Entity("ApiDesign.Models.Cart", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<double>("CartPrice");
+                    b.Property<string>("CartPrice");
 
                     b.Property<double>("ItemCount");
 
@@ -146,7 +148,7 @@ namespace Design.Api.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CartId");
+                    b.Property<string>("CartId");
 
                     b.Property<int?>("ProductId");
 
@@ -166,7 +168,7 @@ namespace Design.Api.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CartId");
+                    b.Property<string>("CartId");
 
                     b.Property<string>("City");
 
@@ -183,10 +185,6 @@ namespace Design.Api.Migrations
                     b.HasIndex("CartId");
 
                     b.ToTable("Orders");
-
-                    b.HasData(
-                        new { Id = 1, City = "cairo", Country = "egypt", Name = "order one", State = "hello state", Zip = "order zip code " }
-                    );
                 });
 
             modelBuilder.Entity("ApiDesign.Models.Photo", b =>

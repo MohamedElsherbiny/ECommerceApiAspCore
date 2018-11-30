@@ -46,6 +46,19 @@ namespace ApiDesign.Controllers
             }
             return NotFound("No Users");
         }
+       [HttpGet("Users/{userId}")]
+        public async Task<IActionResult> GetUser([FromRoute]string userId)
+        {
+            var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == userId);
+            if (user != null)
+            {
+                var userToReturn = _mapper.Map<UserForListDto>(user);
+                var userRoles = await _userManager.GetRolesAsync(user);
+                userToReturn.Roles = userRoles.ToArray();
+                return Ok(userToReturn);
+            }
+            return NotFound("No User");
+        }
         [HttpPost("Users/Add")]
         public async Task<IActionResult> CreateUser([FromBody]UserForCreateDto model)
         {
@@ -217,7 +230,7 @@ namespace ApiDesign.Controllers
             role.Name = roleForEdit.Name;
             IdentityResult result = await _roleManager.UpdateAsync(role);
             if(result.Succeeded)
-                return Ok("Updated");
+                return Ok();
             return Unauthorized();
         }
         [HttpPost("Roles/AddToRole/{userId}/{role}")]
@@ -229,7 +242,7 @@ namespace ApiDesign.Controllers
             if (roleFromRepo == null || userFromRepo == null)
                 return Unauthorized();
             IdentityResult result = await _userManager.AddToRoleAsync(userFromRepo,roleFromRepo.Name);
-            return Ok(userFromRepo.UserName.ToUpper() + " Has Been Added To Role " + roleFromRepo.Name.ToUpper());
+            return Ok();
             
         }
         [HttpPost("Roles/IsInRole/{userId}/{role}")]

@@ -10,6 +10,7 @@ namespace ApiDesign.Extentions
         public AutoMapperProfile()
         {
             CreateMap<List<User>,UserForListDto>();
+            CreateMap<User,UserForListDto>();
 
             CreateMap<List<Product>,ProductForListDto>();
             CreateMap<Product,ProductForDetailDto>();
